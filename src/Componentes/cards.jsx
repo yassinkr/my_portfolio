@@ -16,7 +16,7 @@ const cards = () => {
       </div>
       <div className='flex justify-center align-middle items-center'>
               <div className=''>
-      <div className='py-[70px]'> 
+      <div className='py-[40px]'> 
         <div className='text-blue-400 text-3xl text-center'>
         Skills & professions 
         </div>

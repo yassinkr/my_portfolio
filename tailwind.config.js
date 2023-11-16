@@ -17,6 +17,9 @@ export default {
         // Define more custom font sizes as needed
       },
       colors: {
+        grey:{
+          400: "#E7E7E7"
+        },
         black:{
           400: "#434343"
         },

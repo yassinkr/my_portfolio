@@ -15,9 +15,9 @@ const cards = () => {
         <div className='rounded-full w-[562px] h-[562px] bg-blue-400 left-[-291px] top-[-316px] absolute'></div></div>
       </div>
       <div className='flex space-x-3 justify-center items-center align-middle gap-[85px] bg-opacity-100'>
-        <Card color={"red"}/>
-        <Card color={"yellow"}/>
-        <Card color={"blue"}/>
+        <Card color={"blue"} title={"UI&UX"} desc={"web design services and user experience research"}/>        
+        <Card color={"yellow"} title={"WEBDEV"} desc={"creating Responsive and efficient web experiences"}/>
+        <Card color={"red"} title={"Data Science"} desc={"working on this"}/>
       </div>
     </div>
   )

@@ -9,12 +9,12 @@ const LandingCatch = () => {
   return (
     
     <div className='bg-blue-500 flex justify-end font-bebas items-center text-center text-white h-screen w-full relative overflow-hidden'>
-      <div>
+      <div className='absolute left-[356px] top-[150px] z-10 w-[380px] h-[827px] bg-white'>
         <div>
-        <img src={My_pic}  />
+        <img className='object-fill' src={My_pic}  />
         </div>
       </div>
-      <div className=' bg-white absolute left-[-45rem] top-[-19rem] h-[80rem] rotate-45 aspect-square flex flex-col gap-16  py-16'>
+      <div className=' bg-white absolute left-[-45rem] top-[-19rem] h-[80rem] rotate-45 aspect-square flex flex-col gap-16  py-16 z-0'>
         <div className='bg-blue-500 w-full h-10'></div>
         <div className='bg-blue-500 w-full h-10'></div>
       </div>

@@ -2,8 +2,8 @@ import React from 'react'
 import Card from './card'
 const cards = () => {
   return (
-    <div className='w-full  h-screen relative grid'>
-      <div className='w-full  h-screen blur-[125px] absolute overflow-hidden bg-opacity-100'>
+    <div className='w-full  h-screen relative flex justify-center items-center overflow-hidden'>
+      <div className='w-full  h-screen blur-[70px] absolute overflow-hidden bg-opacity-100'>
        <div className='relativ bg-opacity-100'>
         <div className='rounded-full w-[562px] h-[562px] bg-blue-400 left-[500px] top-[672px] absolute'></div>
         <div className='rounded-full w-[605px] h-[605px] bg-red-400 right-[-190px] top-[-346px] absolute'></div>

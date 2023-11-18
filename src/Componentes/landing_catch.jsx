@@ -6,22 +6,34 @@ import sparcle1 from './svg/sparcle_1.svg'
 import sparcle2 from './svg/sparcle_2.svg'
 import My_pic from './svg/pic.jpg'
 const LandingCatch = () => {
+  const containerStyle = {
+    position: 'absolute',
+    left: '490px',
+    top: '140px',
+    zIndex: 10,
+    width: '330px',
+    height: '600px',
+    backgroundColor: 'rgba(0, 0, 0, 0.4)',  // Adjust as needed
+    borderRadius: '170px',
+    border: '15px solid white',
+    backgroundImage: `url(${My_pic})`,
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',  // Adjust as needed
+    boxShadow: '-20px 0px 40px rgba(0, 0, 0, 0.25)',
+  };
+
   return (
     
     <div className='bg-blue-500 flex justify-end font-bebas items-center text-center text-white h-screen w-full relative overflow-hidden'>
-      <div className='absolute left-[356px] top-[150px] z-10 w-[380px] h-[827px] bg-white'>
-        <div>
-        <img className='object-fill' src={My_pic}  />
-        </div>
-      </div>
-      <div className=' bg-white absolute left-[-45rem] top-[-19rem] h-[80rem] rotate-45 aspect-square flex flex-col gap-16  py-16 z-0'>
+      <div style={containerStyle}></div>
+        <div className=' bg-white absolute left-[-45rem] top-[-19rem] h-[80rem] rotate-45 aspect-square flex flex-col gap-16  py-16 z-0'>
         <div className='bg-blue-500 w-full h-10'></div>
         <div className='bg-blue-500 w-full h-10'></div>
       </div>
-      <div className='absolute  w-[130px] h-[130px] top-[150px] left-[700px]'>
+      <div className='absolute  w-[180px] h-[180px] top-[150px] left-[755px] z-10'>
      <img src={sparcle1} alt="sparcle1" />
       </div>
-      <div className='absolute  w-[197px] h-[197px] bottom-24 left-[380px]'>
+      <div className='absolute  w-[197px] h-[197px] bottom-32 left-[380px] z-10 '>
      <img src={sparcle2} alt="sparcle2" />
       </div>
 

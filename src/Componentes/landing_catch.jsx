@@ -4,10 +4,16 @@ import twitter from './svg/twitter.svg'
 import linkedin from './svg/linkedin.svg'
 import sparcle1 from './svg/sparcle_1.svg'
 import sparcle2 from './svg/sparcle_2.svg'
+import My_pic from './svg/pic.jpg'
 const LandingCatch = () => {
   return (
     
     <div className='bg-blue-500 flex justify-end font-bebas items-center text-center text-white h-screen w-full relative overflow-hidden'>
+      <div>
+        <div>
+        <img src={My_pic}  />
+        </div>
+      </div>
       <div className=' bg-white absolute left-[-45rem] top-[-19rem] h-[80rem] rotate-45 aspect-square flex flex-col gap-16  py-16'>
         <div className='bg-blue-500 w-full h-10'></div>
         <div className='bg-blue-500 w-full h-10'></div>
